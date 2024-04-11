@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav ul li a{
+    padding: 0 30px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 2px solid transparent;
+
+}
+nav ul{
+    list-style: none;
+}
+.overall-home{
+    background-image: url(IMG-20240121-WA0001.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav ul li a:hover{
+    color: rgb(41, 2, 8);
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+}
+nav h3{
+    letter-spacing: 1px;
+    font-size: xx-large;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+}
+form{
+    width: 200px;
+    position: relative;
+    gap: 1rem;
+}
+form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 2px solid rgb(158, 72, 86) ;
+    border-radius: 20px;
+}
+form input:last-child{
+    display: inline-block;
+    position: absolute;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    background-color: rgb(158, 72, 86);
+    color: white;
+    outline: none;
+    border: 2px solid rgb(158, 72, 86) ;
+    top: 6px;
+    right: 6px;
+    bottom: 4px;
+}
+.About{
+    background-color: #191919;
+}
+.About .about-overall .about-content{
+    color: white;
+    padding-top: 15rem;
+}
+.about-overall{
+    display: flex;
+    gap: 4rem;
+    padding-top: 45px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #191919;
+    color: white;
+    }
+.icons{
+    display: flex;
+}
+.icons a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(158, 72, 86);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: white;
+    text-decoration: none;
+}
